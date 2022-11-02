@@ -1,0 +1,66 @@
+@charset "utf-8";
+@font-face {
+	font-family: Champagne;
+	src: url(cac_champagne.woff) format ('woff'), url(cac_champagne.ttf) format('ttf');
+}
+html {
+	background-color: seagreen;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+}
+body {
+	background-color: green;
+}
+nav.horizontalNavigation a {
+	background-color: darkgreen;
+	font-family: Champagne, cursive;
+	font-size: 1.4em;
+	line-height: 1.8em;
+	text-align: center;
+}
+nav.horizontalNavigation a:link, nav.horizontalNavigation a:visited {
+	color: rgb(239, 220,156);
+}
+nav.horizontalNavigation a:hover, nav.horizontalNavigation a:active {
+	background-color: darkseagreen;
+}
+section#leftColumn p {
+	color: white;
+	font-size: 0.9em;
+	line-height: 1.6em;
+}
+section#rightColumn{
+	color: white;
+	font-size: 0.9em;
+	line-height: 1.3em
+}
+section#bottonColumn img {
+	float: left;
+	display: block;
+}
+	
+body>footer {
+	font-size: 0.9em;
+	color: seagreen;
+}
+body>footer h1 {
+	color: darkmagenta;
+	font-size: 1.1em;
+	font-weight: normal;
+	margin: 1em 0 0.5em 1em;
+	letter-spacing: 0.2em;
+}
+nav.verticalNavigation ul {
+	margin-left: 1em;
+	line-height: 2em;
+}
+nav.verticalNavigation a:link, nav.verticalNavigation a:visited {
+	color: floralwhite;
+}
+nav.verticalNavigation a:hover, nav.verticalNavigation a:active {
+	text-decoration: underline;
+}
+section#contactInfo p{
+	margin: 1em;
+	line-height: 1.4em;
+	color: floralwhite;
+}

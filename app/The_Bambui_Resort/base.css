@@ -1,0 +1,25 @@
+@charset "utf-8";
+@import url("style.css");
+article, aside, figcaption, figure, header, footer, main, nav, section {
+	display: block;
+}
+address, article, aside, blockquote, cite, div, dl, dt, dd, em, figcaption, figure, h1, h2, h3, h4, h5, h6, header, img, li, main, nav, ol, section, span, ul {
+	background: transparent;
+	margin: 0;
+	padding: 0;
+	font-style: 100%;
+	vertical-align: baseline;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+nav ul {
+	list-style-type: none;
+	list-style-image: none;
+}
+nav a {
+	text-decoration: none;
+}
+body {
+	line-height: 1;
+}
